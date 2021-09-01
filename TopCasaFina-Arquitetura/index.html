@@ -157,7 +157,58 @@
             </a>
         </div>
     </section>
-      
+
+    <!-- Video institucional -->
+    <section class="container">
+        <h2>Vídeo institucional</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/J4_rLK7F4fw" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    
+    <!-- Formulário -->
+    <section>
+        <h2>Contato</h2>
+        <p>Entre em contato conosco</p>
+        <form action="">
+            <div class="form-group">
+                <label for="contato-name">Nome:</label>
+                <input class="form-control" id="contato-name" type="text" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="contato-email">Email:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                    <input class="form-control" id="contato-email" type="email" placeholder="Seu e-mail">
+                </div>
+            </div>
+
+            <div class="grupo-radio">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa" checked>Pessoa Física
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa">Pessoa Juridica
+                    </label>   
+                </div> 
+            </div>
+
+            <select class=" contato-select form-control">
+                <option disabled selected>Tipo de solicitação</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+                <option>Mansão</option>
+            </select>
+            <button class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
         
    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
