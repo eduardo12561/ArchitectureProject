@@ -18,3 +18,14 @@
     text-decoration: underline;
     font-size: 20px;
 }
+
+
+.contato-select,
+.grupo-radio {
+    width: 50% !important;
+    display: inline-block;
+}
+
+.btn {
+    margin-top: 10px;
+}
