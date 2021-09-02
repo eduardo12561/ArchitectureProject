@@ -12,7 +12,33 @@
 </head>
 
 <body>
-    <div class="container">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Collapse Button -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#btn-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a  class="navbar-brand" href="#">TopCasaFina - Arquitetura</a>
+                </div>
+                <!-- Navbar -->
+                <div id="btn-collapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="sobre-nos" class="container">
         <h2>Sobre Nós</h2>
         <img src="assets/empresa.jpg" class="img-responsive" alt="imagem-reunião">
         <div class="panel-group" id="paneis-sobre">
@@ -50,6 +76,7 @@
                 </div>
             </div>
         </div>
+    </section>    
 
     <!-- Banner -->
     <div class="jumbotron">
@@ -60,7 +87,7 @@
     </div>  
 
      <!--Projetos -->
-    <div class="container">
+    <div id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
         <figure class="thumbnail">
             <img src="assets/projetos/casa-castelo.png" class="img-responsive" alt="castelo">
@@ -111,7 +138,7 @@
         </figure>
      </section>
 
-     <section>
+     <section id="depoimentos">
         <h2 class="titulo-depoimentos">Depoimentos de clientes</h2>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -159,7 +186,7 @@
     </section>
 
     <!-- Video institucional -->
-    <section class="container">
+    <section id="video" class="container">
         <h2>Vídeo institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315"
@@ -171,7 +198,7 @@
     </section>
     
     <!-- Formulário -->
-    <section>
+    <section id="contato">
         <h2>Contato</h2>
         <p>Entre em contato conosco</p>
         <form action="">
